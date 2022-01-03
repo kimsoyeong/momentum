@@ -56,3 +56,7 @@ input:hover {
 #timer span {
     font-size: 50px;
 }
+
+img {
+    width: 100%;
+}
