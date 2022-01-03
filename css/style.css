@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'GowunDodum-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunDodum-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'KOTRAHOPE';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/KOTRAHOPE.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #212832;
+    color: #9fcdec;
+
+    border-radius: 3px;
+    font-family:'GowunDodum-Regular';
+}
+
+.hidden {
+    display: none;
+}
+
+
+a {
+    color: #fff;
+}
+
+input {
+    padding: 10px;
+    background: none;
+    border: 3px solid transparent;
+
+    margin: 20px 4px;
+}
+input:hover {
+    border: 1px solid #b3b3b3;
+    border-radius: 3px;
+}
+
+#btn-submit {
+    color: #F05454;
+    color: #54f09a;
+    font-weight: bold;
+}
+
+#timer, #todo-list {
+    border: 1px solid #b3b3b3;
+    text-align: center;
+    border-radius: 3px;
+}
+
+#timer span {
+    font-size: 50px;
+}
