@@ -21,7 +21,6 @@ function paintGreetings() {
 }
 
 const savedUsername = localStorage.getItem(USERNAME_KEY);
-// localStorage.removeItem(USERNAME_KEY);
 
 if(savedUsername === null){
     // show the form

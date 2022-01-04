@@ -17,13 +17,27 @@ function deleteToDo(event){
     saveTodos();
 }
 
+const timerDiv = document.querySelector("#timer-div");
+const timerName = timerDiv.querySelector("h3");
+
+function checkToDo(event){
+    const li = event.target.parentElement;
+    
+    timerName.value = li.id;
+    timerName.innerText = event.target.innerText;
+}
+
 function paintToDo(newTodo){ // newTodo as Object
     const li = document.createElement("li");
     li.id = newTodo.id;
+    li.classList.add("todo");
     const span = document.createElement("span");
     span.innerText = newTodo.text;
+    span.addEventListener("click", checkToDo);
+
     const button = document.createElement("button");
-    button.innerText="❌"
+    button.classList.add("delete-btn")
+    button.innerText="X"
     button.addEventListener("click", deleteToDo)
 
     li.appendChild(span);
@@ -47,7 +61,6 @@ function handleToDoSubmit(event){
 toDoForm.addEventListener("submit", handleToDoSubmit);
 
 const savedTodos = localStorage.getItem(TODOS_KEY);
-console.log(savedTodos);
 if(savedTodos){
     const parsedToDos = JSON.parse(savedTodos);
     toDos = parsedToDos;
