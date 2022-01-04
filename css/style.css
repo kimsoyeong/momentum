@@ -29,12 +29,13 @@ a {
     color: #fff;
 }
 
-input {
+input, button {
     padding: 10px;
     background: none;
     border: 3px solid transparent;
 
     margin: 20px 4px;
+    color: #9fcdec;
 }
 input:hover {
     border: 1px solid #b3b3b3;
