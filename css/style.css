@@ -31,17 +31,21 @@ a {
     color: #fff;
 }
 
-input, button {
-    padding: 10px;
+input {
+    padding: 14px;
     background: none;
-    border: 3px solid transparent;
+    border: 2px solid transparent;
 
     margin: 20px 4px;
     color: #9fcdec;
 }
 input:hover {
-    border: 1px solid #b3b3b3;
+    border: 2px solid #b3b3b3;
     border-radius: 3px;
+}
+
+#todo-form input {
+    width: 200px;
 }
 
 #btn-submit {
