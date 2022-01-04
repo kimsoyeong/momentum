@@ -1,6 +1,8 @@
 # Time-ToDo
 Chrome extension to help you manage your time and to-do.
 
+Check demo [here](https://kimsoyeong.github.io/momentum/)
+
 ![image](https://user-images.githubusercontent.com/43427380/148084302-e5cc8e94-dc2f-4224-8fc7-f9113d4cb504.png)
 
 
