@@ -1,0 +1,17 @@
+{
+    "name": "Time-ToDo",
+    "version": "1.0",
+    "manifest_version": 3,
+ 
+    "description": "Timer & Todo list",
+
+    "action": {
+        "default_icon": "/asset/icon.png",
+        "default_title": "Time-ToDo",
+        "default_popup": "/index.html"
+    },
+    "permissions": ["geolocation"],
+    "icons": {},
+
+    "author": "soyeong"
+}
